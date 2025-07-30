@@ -1,3 +1,5 @@
+/*
+
 const express = require('express');
 const app = express();
 const port = 3000;
@@ -25,4 +27,24 @@ app.post('/users', (req, res) => {
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
+}); 
+
+*/
+
+/*
+
+const http = require('http')
+
+const server = http.createServer((req, res) => {
+    res.write('Part 1\n');
+    res.write('Part 2\n');
+    res.end('Done!');
+
 });
+
+server.listen(3000, () => {
+    console.log('Server is running on localhost: http://localhost:3000');
+});
+
+*/
+
